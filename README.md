@@ -314,6 +314,7 @@ _Stins_ is short in Swedish for "Station Master", and _Stinsen_ is the definite 
 # Updating from Stinsen v1 🚀
 
 The biggest change in Stinsen v2 is that it is more type-safe than Stinsen v1, which allows for easier chaining and deep-linking, among other things.
+Simple, powerful and elegant implementation of the Coordinator pattern in SwiftUI. Stinsen is written using 100% SwiftUI which makes it work seamlessly across iOS, tvOS, watchOS and macOS devices.
 
 - The Route-enum has been replaced with property wrappers.
 - `AnyCoordinatable` has been replaced with a protocol. It does not perform the same duties as the old `AnyCoordinatable` and does not fit in with the more type-safe routing of version 2, so remove it from your project.
