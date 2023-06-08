@@ -12,7 +12,7 @@ Simple, powerful and elegant implementation of the Coordinator pattern in SwiftU
 
 We all know routing in UIKit can be hard to do elegantly when working with applications of a larger size or when attempting to apply an architectural pattern such as MVVM. Unfortunately, SwiftUI out of the box suffers from many of the same problems as UIKit does: concepts such as `NavigationLink` live in the view-layer, we still have no clear concept of flows and routes, and so on. _Stinsen_ was created to alleviate these pains, and is an implementation of the _Coordinator Pattern_. Being written in SwiftUI, it is completely cross-platform and uses the native tools such as `@EnvironmentObject`. The goal is to make _Stinsen_ feel like a missing tool in SwiftUI, conforming to its coding style and general principles.
 
-# What is a Coordinator? 🤷🏽‍♂️
+# What is a Coordinator? 🤷🏽‍♂️🤷🏽‍♂️🤷🏽‍♂️
 
 Normally in SwiftUI, the view has to handle adding other views to the navigation stack using `NavigationLink`. What we have here is a tight coupling between the views, since the view must know in advance all the other views that it can navigate between. Also, the view is in violation of the _single-responsibility principle_ (SRP). Using the Coordinator Pattern, presented to the iOS community by Soroush Khanlou at the NSSpain conference in 2015, we can delegate this responsibility to a higher class: The Coordinator.
 
